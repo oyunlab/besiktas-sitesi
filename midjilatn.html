@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beşiktaş - FC Midtjylland İstatislikleri</title>
+</head>
+
+<style>
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .besiktas_ {
+        width: 100px;
+    }
+
+    .sss {
+        position: relative;
+        left: 120px;
+        top: -120px;
+    }
+
+    .navbar_ ul {
+        list-style: none;
+        display: flex;
+        background-color: #000000;
+        padding: 0px 7px;
+        margin: 0px;
+        margin-top: -60px;
+    }
+
+    .navbar_ li a {
+        display: block;
+        color: white;
+        padding: 10px 75px;
+        text-decoration: none;
+    }
+
+    .navbar_ li a:hover {
+        background-color: #3b3b3b;
+    }
+
+    .bjj {
+        position: relative;
+        width: 90px;
+        left: 50px;
+        top: 60px;
+    }
+
+    .fcc {
+        position: relative;
+        width: 110px; 
+        left: 770px;
+        top: 60px;
+    }
+
+    .istati {
+        position: relative;
+        left: 420px;
+        top: -50px;
+    }
+
+    .skor {
+        position: relative;
+        left: 420px;
+        top: -30px;
+
+    }
+
+    .istatistik-kutu {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .istatistik-baslik {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .yuzde-cubuk-satir {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .yuzde-sol, .yuzde-sag {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .yuzde-cubuk {
+        display: flex;
+        width: 500px;
+        height: 25px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .cubuk-taraf1 {
+        background: linear-gradient(to right, #4d0000, #ff0000);
+    }
+
+    .cubuk-taraf2 {
+        background: linear-gradient(to right, #33cc33, #006622);
+    }
+
+    .istatislik-kutu2 {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .istatislik-baslik2 {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .yuzde-cubuk-satir2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .yuzde-sol2, .yuzde-sag2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .yuzde-cubuk2 {
+        display: flex;
+        width: 500px;
+        height: 25px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .cubuk-taraf1-2 {
+        background: linear-gradient(to right, #4d0000, #ff0000);
+    }
+
+    .cubuk-taraf2-2 {
+        background: linear-gradient(to right, #33cc33, #006622);
+    }
+
+    .istatislik-kutu3 {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .istatislik-baslik3 {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .yuzde-cubuk-satir3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .yuzde-sol3, .yuzde-sag3 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .yuzde-cubuk3 {
+        display: flex;
+        width: 500px;
+        height: 25px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .cubuk-taraf1-3 {
+        background: linear-gradient(to right, #4d0000, #ff0000);
+    }
+
+    .cubuk-taraf2-3 {
+        background: linear-gradient(to right, #33cc33, #006622);
+    }
+
+    .istatislik-kutu4 {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .istatislik-baslik4 {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .yuzde-cubuk-satir4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .yuzde-sol4, .yuzde-sag4 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .yuzde-cubuk4 {
+        display: flex;
+        width: 500px;
+        height: 25px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .cubuk-taraf1-4 {
+        background: linear-gradient(to right, #4d0000, #ff0000);
+    }
+
+    .cubuk-taraf2-4 {
+        background: linear-gradient(to right, #33cc33, #006622);
+    }
+
+</style>
+
+<body>
+    
+    <img class="besiktas_" src="Beşiktaş_Logo_Beşiktaş_Amblem_Beşiktaş_Arma.png" alt="">
+
+    <h1 class="sss">Beşiktaş - FC Midtjylland</h1>
+
+    <nav class="navbar_">
+        <ul>
+            <li><a href="anasayfa..html">Genel</a></li>
+            <li><a href="">Kadro</a></li>
+            <li><a href="fikstür.html">Fikstür</a></li>
+            <li><a href="istatislikler.html">İstatislikler</a></li>
+            <li><a href="">Transferler</a></li>
+            <li><a href="">Haberler</a></li>
+        </ul>
+    </nav>
+
+    <img class="bjj" src="Beşiktaş_Logo_Beşiktaş_Amblem_Beşiktaş_Arma.png" alt="">
+
+    <img class="fcc" src="FC_Midtjylland.png" alt="">
+
+    <h1 class="skor"> <--- 1 - 0 ---></h1>
+    
+    <h2 class="istati">İSTATİSLİKLER</h2>
+
+    <div class="istatistik-kutu">
+    <h3 class="istatistik-baslik">TOPA SAHİP OLMA</h3>
+    <div class="yuzde-cubuk-satir">
+        <span class="yuzde-sol">%74</span>
+        <div class="yuzde-cubuk">
+            <div class="cubuk-taraf1" style="width: 74%;"></div>
+            <div class="cubuk-taraf2" style="width: 26%;"></div>
+        </div>
+        <span class="yuzde-sag">%26</span>
+    </div>
+</div>
+
+<div class="istatislik-kutu2">
+    <h3 class="istatislik-baslik2">İKİLİ MÜCADELE KAZANMA</h3>
+    <div class="yuzde-cubuk-satir2">
+        <span class="yuzde-sol2">%37</span>
+        <div class="yuzde-cubuk2">
+            <div class="cubuk-taraf1-2" style="width: 37%;"></div>
+            <div class="cubuk-taraf2-2" style="width: 71%;"></div>
+        </div>
+        <span class="yuzde-sag2">%54</span>
+    </div>
+</div>
+
+<div class="istatislik-kutu3">
+    <h3 class="istatislik-baslik3">TOPLAM ŞUT</h3>
+    <div class="yuzde-cubuk-satir3">
+        <span class="yuzde-sol3">28 (7)</span>
+        <div class="yuzde-cubuk3">
+            <div class="cubuk-taraf1-3" style="width: 85%;"></div>
+            <div class="cubuk-taraf2-3" style="width: 15%;"></div>
+        </div>
+        <span class="yuzde-sag3">5 (1)</span>
+    </div>
+</div>
+
+<div class="istatislik-kutu4">
+    <h3 class="istatislik-baslik4">FAUL</h3>
+    <div class="yuzde-cubuk-satir4">
+        <span class="yuzde-sol4">12</span>
+        <div class="yuzde-cubuk4">
+            <div class="cubuk-taraf1-4" style="width: 57%;"></div>
+            <div class="cubuk-taraf2-4" style="width: 43%;"></div>
+        </div>
+        <span class="yuzde-sag4">9</span>
+    </div>
+</div>
+
+<div class="istatislik-kutu5">
+    <h3 class="istatislik-baslik5">KURTARIŞ</h3>
+    <div class="yuzde-cubuk-satir5">
+        <span class="yuzde-sol5">1</span>
+        <div class="yuzde-cubuk5">
+            <div class="cubuk-taraf1-5" style="width: 54%;"></div>
+            <div class="cubuk-taraf2-5" style="width: 46%;"></div>
+        </div>
+        <span class="yuzde-sag5">6</span>
+    </div>
+</div>        
+
+</body>
+</html>
